@@ -14,7 +14,6 @@ body {
 }
 
 /*Headings and Logo*/
-
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -25,4 +24,34 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+}
+
+/*Navigation links*/
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+li, a {
+    color: white;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
 }
