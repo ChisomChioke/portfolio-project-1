@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500&family=Oswald:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -7,18 +7,47 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Merienda', sans-serif;
     font-weight: 300;
-    background-color: black;
     color: #3a3a3a;
 }
 
 /*Headings and Logo*/
 h1, h2 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: capitalize;
+    font-family: 'Merienda', cursive;
+    font-size: 4rem;
     letter-spacing: 4px;
-    color: white;
+    color: rgb(184, 211, 10);
+}
+
+header {
+	color: blue;
+}
+
+header > p {
+	color: white;
+}
+
+header {
+    background-color: black;
+}
+
+.page-header {
+	height: 50vh;
+	background: center 75% / cover no-repeat;
+}
+.text-center {
+    text-align: center;
+}
+.vertical-center {
+    position: relative;
+    top: 30%;
+}
+
+#bgd {
+    height: 600px;
+    width: 100%;
+    background-image: url('https://images.pexels.com/photos/4552127/pexels-photo-4552127.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 }
 
 #logo {
@@ -27,6 +56,7 @@ h1, h2 {
 }
 
 /*Navigation links*/
+
 #menu {
     font-size: 16px;
     letter-spacing: 4px;
@@ -48,7 +78,7 @@ nav {
 }
 
 li, a {
-    color: white;
+    color:darkslategray;
     text-decoration: none;
 }
 
@@ -57,15 +87,9 @@ li, a {
 }
 
 .nav_links li a:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
 }
 
 .active {
     color: goldenrod;
-}
-
-#main-image {
-    height: 600px;
-    width: 100%;
-    background: url('/assets/css/images/main-image.jpeg') no-repeat center center;
 }
