@@ -13,50 +13,59 @@ body {
 }
 
 /*Headings and Logo*/
-h1, h2 {
+h1 {
     font-family: 'Merienda', cursive;
-    font-size: 4rem;
+    font-size: 3rem;
     letter-spacing: 4px;
-    color: rgb(184, 211, 10);
+    color: wheat;
+}
+p {
+   color: wheat;
+   font-family: Oswald, sans-serif;
 }
 
-header {
-	color: blue;
-}
-
-header > p {
-	color: white;
-}
-
-header {
-    background-color: black;
-}
-
-.page-header {
-	height: 50vh;
-	background: center 75% / cover no-repeat;
-}
 .text-center {
     text-align: center;
 }
+
 .vertical-center {
     position: relative;
     top: 30%;
 }
 
 #bgd {
+    background-image: url('/assets/css/images/pexels-photo-2175211.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 600px;
-    width: 100%;
-    background-image: url('https://images.pexels.com/photos/4552127/pexels-photo-4552127.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 }
-
-#logo {
-    float: left;
-    font-size: 300%;
+#cover-text {
+    font-size: 100%;
+    letter-spacing: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
 }
 
 /*Navigation links*/
 
+.nav_links {
+    overflow: hidden;
+    background: #fff;
+    margin-top: -5px;
+}
+
+.nav_links a{
+    color: #000;
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 14px;
+    width: 100px;
+}
+
+/*
 #menu {
     font-size: 16px;
     letter-spacing: 4px;
@@ -67,7 +76,7 @@ header {
     margin-right: 30px;
 }
 
-#menu, #logo {
+#menu {
     line-height: 75px;
 }
 
@@ -80,6 +89,7 @@ nav {
 li, a {
     color:darkslategray;
     text-decoration: none;
+
 }
 
 .nav_links li {
@@ -93,3 +103,4 @@ li, a {
 .active {
     color: goldenrod;
 }
+*/
